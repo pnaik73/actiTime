@@ -10,6 +10,8 @@ public class HomePage {
 private WebElement lgtbtn;
 @FindBy(linkText = "TASKS")
 private WebElement taskTab;
+@FindBy(xpath="//div[text()='USERS']")
+private WebElement userTab;
 
 public HomePage(WebDriver driver)
 {
@@ -18,5 +20,9 @@ public HomePage(WebDriver driver)
  public WebElement getTaskTab()
  {
 	 return taskTab;
+ }
+ public WebElement getUserTab()
+ {
+	 return userTab;
  }
 }

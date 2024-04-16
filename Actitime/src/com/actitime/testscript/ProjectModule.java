@@ -1,5 +1,6 @@
 package com.actitime.testscript;
 
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
@@ -14,7 +15,7 @@ import com.actitime.generic.BaseClass;
 import com.actitime.generic.FileLib;
 import com.actitime.pom.HomePage;
 import com.actitime.pom.TaskListPage;
-
+@Listeners(com.actitime.generic.ListenerImplementation.class)
 public class ProjectModule extends BaseClass {
 	FileLib f=new FileLib();
 	@Test

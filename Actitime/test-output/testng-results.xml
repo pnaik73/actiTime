@@ -14,44 +14,44 @@
       <![CDATA[Close Browser]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-03-21T05:24:35 IST" name="Default suite" finished-at="2024-03-21T05:24:52 IST" duration-ms="16614">
+  <suite started-at="2024-04-16T11:13:42 IST" name="Default suite" finished-at="2024-04-16T11:14:06 IST" duration-ms="23508">
     <groups>
     </groups>
-    <test started-at="2024-03-21T05:24:35 IST" name="Default test" finished-at="2024-03-21T05:24:52 IST" duration-ms="16614">
-      <class name="com.actitime.testscript.ProjectModule">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.actitime.testscript.ProjectModule@6e20b53a]" started-at="2024-03-21T05:24:35 IST" name="openBrowser" finished-at="2024-03-21T05:24:37 IST" duration-ms="1801" status="PASS">
+    <test started-at="2024-04-16T11:13:42 IST" name="Default test" finished-at="2024-04-16T11:14:06 IST" duration-ms="23508">
+      <class name="com.actitime.testscript.UserModule">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.actitime.testscript.UserModule@6e20b53a]" started-at="2024-04-16T11:13:42 IST" name="openBrowser" finished-at="2024-04-16T11:13:44 IST" duration-ms="1783" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Open Browser]]>
             </line>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.actitime.testscript.ProjectModule@6e20b53a]" started-at="2024-03-21T05:24:37 IST" name="login" finished-at="2024-03-21T05:24:38 IST" duration-ms="478" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.actitime.testscript.UserModule@6e20b53a]" started-at="2024-04-16T11:13:44 IST" name="login" finished-at="2024-04-16T11:13:45 IST" duration-ms="534" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Login]]>
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="createproject()[pri:0, instance:com.actitime.testscript.ProjectModule@6e20b53a]" started-at="2024-03-21T05:24:38 IST" name="createproject" finished-at="2024-03-21T05:24:51 IST" duration-ms="13766" status="PASS">
+        <test-method signature="createUser()[pri:0, instance:com.actitime.testscript.UserModule@6e20b53a]" started-at="2024-04-16T11:13:45 IST" name="createUser" finished-at="2024-04-16T11:14:05 IST" duration-ms="20314" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createproject -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.actitime.testscript.ProjectModule@6e20b53a]" started-at="2024-03-21T05:24:51 IST" name="logout" finished-at="2024-03-21T05:24:52 IST" duration-ms="213" status="PASS">
+        </test-method> <!-- createUser -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.actitime.testscript.UserModule@6e20b53a]" started-at="2024-04-16T11:14:05 IST" name="logout" finished-at="2024-04-16T11:14:05 IST" duration-ms="483" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[logout]]>
             </line>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.actitime.testscript.ProjectModule@6e20b53a]" started-at="2024-03-21T05:24:52 IST" name="closeBrowser" finished-at="2024-03-21T05:24:52 IST" duration-ms="325" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.actitime.testscript.UserModule@6e20b53a]" started-at="2024-04-16T11:14:05 IST" name="closeBrowser" finished-at="2024-04-16T11:14:06 IST" duration-ms="364" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Close Browser]]>
             </line>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- com.actitime.testscript.ProjectModule -->
+      </class> <!-- com.actitime.testscript.UserModule -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
