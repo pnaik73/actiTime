@@ -60,10 +60,4 @@ public class UserModule extends BaseClass{
 		driver.switchTo().alert().accept();
 		
 	}
-
-
-
-
-
-
 }
